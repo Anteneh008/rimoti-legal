@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Rimoti</title>
+<style>
+  :root { color-scheme: dark; --bg: #050507; --card: #0D0D12; --text: #F7F7FA; --muted: #A3A3B8; --faint: #7A7A90; --brand: #8B3DFF; --link: #73B8FF; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+  .badge { width: 40px; height: 40px; border-radius: 11px; background: linear-gradient(135deg, #8B3DFF, #2F8CFF); }
+  .brand { font-weight: 800; font-size: 20px; letter-spacing: -0.3px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.5px; }
+  .date { color: var(--faint); font-size: 14px; margin: 0 0 24px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { color: var(--muted); }
+  ul { padding-left: 1.2em; }
+  li { margin: 6px 0; }
+  li::marker { color: var(--brand); }
+  a { color: var(--link); }
+  nav { margin-top: 48px; padding-top: 20px; border-top: 1px solid #1E1E29; font-size: 14px; color: var(--faint); }
+  nav a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+<header><div class="badge" aria-hidden="true"></div><span class="brand">Rimoti</span></header>
+<h1>Privacy Policy</h1>
+<p class="date">Effective November 7, 2026</p>
+<p>Rimoti (&quot;Rimoti&quot;, &quot;we&quot;, &quot;us&quot;) is a remote control app for smart TVs. This policy explains what information the app handles, where it goes, and the choices you have. In short: Rimoti has no accounts and no servers of its own. Information about your TVs stays on your phone and your home network. The only data that leaves your device for the internet is what Google's advertising service collects to show ads.</p>
+<h2>Information stored on your device</h2>
+<p>To remember and reconnect to your TVs, Rimoti stores the following on your phone only:</p>
+<ul><li>Saved TVs: the name, model, local IP address and port your TV advertises on your network, and, for Samsung and Hisense VIDAA TVs, the TV's network (MAC) address, used only to send a Wake-on-LAN signal to turn the TV back on.</li><li>Pairing credentials: the certificates, client IDs and access tokens your TV issues when you pair. These are kept in the phone's encrypted secure storage.</li><li>Your settings, such as sound effects and haptic feedback, and whether you've finished onboarding.</li><li>Counters that limit how often ads are shown (for example, when the last full-screen ad appeared).</li></ul>
+<p>None of this is sent to us or to any third party. We never see it.</p>
+<h2>Your local network</h2>
+<p>To find TVs, Rimoti listens for and sends standard discovery messages (such as mDNS/Bonjour and SSDP/UPnP) on the Wi-Fi network you're connected to. Remote-control commands go directly from your phone to your TV over that network. They are not relayed through the internet or any server.</p>
+<h2>Advertising (Google AdMob)</h2>
+<p>Rimoti is free and supported by ads served by Google AdMob. To deliver and measure ads and prevent fraud, Google's SDK may collect and process:</p>
+<ul><li>Your device's advertising ID</li><li>Your IP address, and an approximate location derived from it</li><li>Device and app information, such as model, operating system version and language</li><li>How you interact with ads, such as views and taps</li></ul>
+<p>Google processes this data under its own privacy policy. To learn how Google uses information from apps that use its services, visit <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
+<p>If you're in the European Economic Area, the United Kingdom or Switzerland, Rimoti asks for your consent through Google's consent form before personalized ads are shown. You can change your choice at any time in Settings → Ad privacy choices. Wherever you are, you can reset or delete your advertising ID in your phone's Android settings (Settings → Google → Ads), which stops ads from being personalized based on it.</p>
+<h2>What Rimoti does not do</h2>
+<ul><li>It has no user accounts and asks for no name, email or phone number.</li><li>It does not use analytics or crash-reporting services.</li><li>It does not access your location (GPS), contacts, photos, camera or microphone.</li><li>We do not sell or share your personal information. The only data shared with a third party is what Google's ad SDK collects, as described above.</li></ul>
+<h2>Permissions</h2>
+<ul><li>Network access and Wi-Fi state: to find TVs on your network, talk to them, and load ads.</li><li>Wi-Fi multicast: to receive the discovery messages TVs broadcast.</li><li>Vibration: for the optional haptic feedback on key presses.</li></ul>
+<h2>Keeping and deleting your information</h2>
+<p>Information stored on your device stays until you remove it. Unpairing a TV in Settings removes it from your saved TVs. Uninstalling Rimoti deletes everything the app stored on your phone. Data collected by Google for advertising is kept under Google's own retention policies.</p>
+<h2>Security</h2>
+<p>Pairing credentials are kept in Android's encrypted secure storage, and connections to TVs use encryption wherever the TV supports it. No method of storage or transmission is completely secure, but because your TV information never leaves your device and home network, it is never exposed on a server.</p>
+<h2>Children</h2>
+<p>Rimoti is not directed at children under 13, and we do not knowingly collect personal information from them.</p>
+<h2>Changes to this policy</h2>
+<p>We may update this policy as the app changes. The effective date at the top shows when it was last revised. Significant changes will be noted in the app or on its Google Play listing.</p>
+<h2>Contact</h2>
+<p>Questions about this policy or your data? Contact us at the developer contact email shown on Rimoti's Google Play page.</p>
+<nav><a href="privacy-policy.html">Privacy Policy</a><a href="terms-of-service.html">Terms of Service</a></nav>
+</main>
+</body>
+</html>
